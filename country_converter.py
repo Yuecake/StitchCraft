@@ -13,10 +13,10 @@ def convert_stitch_term(stitch: str,
     :param country: country to convert from.
     :returns: the stitch description of the other country.
     """
-    if country == "us":
-        other_country = "uk"
-    else:
-        other_country = "us"
+    # if country == "us":
+    #     other_country = "uk"
+    # else:
+    #     other_country = "us"
 
     st = stitch_definitions[stitch]
     print(st.uk)
